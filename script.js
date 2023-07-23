@@ -5,31 +5,31 @@ class Person {
 	this.age = age;
 	}
 	getName(){
-		return this.name
+		return this.name;
 	}
 	setAge(age){
-		this.age = age
+		this.age = age;
 	}
 }
 
 class Student extends Person {
 	constructor(name,age){
-		super(name,age)
+		super(name,age);
 	}
 	study(){
-	console.log(`${this.name} is studying`)
+	console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
 	constructor(name,age){
-		super(name,age)
+		super(name,age);
 	}
 	teach(){
 	console.log(`${this.name} is teaching`)
 	}
 }
-}
+
 
 // Do not change the code below this line
 window.Person = Person;
